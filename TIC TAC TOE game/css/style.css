@@ -1,0 +1,59 @@
+h1{
+  color:Green;
+  font-size: 150%;
+  font-family: cursive;
+}
+header{
+  border: 1px solid Green;
+  background-color: rgba(111,111,111,0.3);
+  border-radius: 10px;
+  text-align: center;
+  padding-bottom: 10px;
+}
+header a{
+  display: inline-block;
+  width: 50vw;
+  height: 40px;
+  border: 1px solid red;
+  border-radius: 15px;
+  text-decoration: none;
+  padding-top: 12px;
+  background-color: pink;
+  box-shadow: inherit;
+  font-size: 120%;
+}
+
+tr td{
+  width: 5vw;
+  height: 5vh;
+  color:white;
+  display:inline-block;
+  border: solid 0.1vw white;
+  padding: 9vh;
+  font-size: 300%;
+
+}
+section{
+  border: 0.1vw solid rgba(111,111,111,0.3);
+  background-color: rgba(0,0,0,1.0);
+  margin-top: 2px;
+  margin-left: 0.1vw;
+  border-radius: 5vw;
+  height: 77vh;
+}
+tr td:first-child{
+  margin-left: 10vw;
+  border-left: None;
+}
+tr:first-child td{
+  border-top: None;
+}
+tr:last-child td{
+  border-bottom: None;
+}
+tr td:last-child{
+  border-right: None;
+}
+tr td:hover{
+  background-color: rgba(255,255,255,0.3);
+}
